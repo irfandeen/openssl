@@ -38,9 +38,11 @@ cp encrypt.sh ~ # or whichever directory you want
 
 # If using bash
 echo "source ~/encrypt.sh" >> ~/.bashrc # wherever encrypt.sh was installed
+source ~/.bashrc
 
 # If using zsh
 echo "source ~/encrypt.sh" >> ~/.zshrc # wherever encrypt.sh was installed
+source ~/.zshrc
 ```
 
 ## Remarks
