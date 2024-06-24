@@ -37,10 +37,10 @@ cd openssl
 cp encrypt.sh ~ # or whichever directory you want
 
 # If using bash
-echo "source ./encrypt >> ~/.bashrc" # wherever encrypt.sh was installed
+echo "source ~/encrypt.sh" >> ~/.bashrc # wherever encrypt.sh was installed
 
 # If using zsh
-echo "source ./encrypt >> ~/.zshrc" # wherever encrypt.sh was installed
+echo "source ~/encrypt.sh" >> ~/.zshrc # wherever encrypt.sh was installed
 ```
 
 ## Remarks
