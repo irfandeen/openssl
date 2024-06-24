@@ -11,15 +11,12 @@ helper() {
 		case $1 in
 		--in | -i)
 			inputfile=$2
-			echo "input file is $inputfile"
 			;;
 		--out | -o)
 			outputfile=$2
-			echo "output file is $outputfile"
 			;;
 		--key | -k)
-			keyfile=$3
-			echo "key file is $keyfile"
+			keyfile=$2
 			;;
 		--help | -h)
 			echo "Usage:"
@@ -71,5 +68,5 @@ genkey() {
 		echo "	genkey keyfilename"
 	fi
 	
-	openssl rand 214 > $keyfile
+	openssl rand 1000 > $keyfile
 }
